@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    width: 100dvw;
+    background: #e8eff2;
+  }
+}
+
+@utility img-position {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+
+@utility icon-position {
+  position: absolute;
+}
+
+@utility h1-position {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translateX(-50%);
+}
+
+@utility p-position {
+  position: absolute;
+  left: 50%;
+  bottom: 18%;
+  transform: translateX(-50%);
+}
+
+@utility buyButton-position {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+}
+
+@utility shoppingIcon-position {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@utility car-final-position {
+  position: absolute;
+  left: 200%;
+  top: 8%;
+  transform: translateX(-50%);
+}
+
+@utility summary-title-position {
+  position: absolute;
+  top: 38%;
+  left: -60%;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+@utility summary-position {
+  position: absolute;
+  top: 46%;
+  left: -52%;
+  transform: translate(-50%);
+  width: 83%;
+}
+
+@utility summary2-position {
+  position: absolute;
+  top: 58%;
+  left: -52%;
+  transform: translate(-50%);
+  width: 83%;
+}
+
+@utility btn-back-position {
+  position: absolute;
+  left: 35px;
+  bottom: -25%;
+  cursor: pointer;
+}
